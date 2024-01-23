@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title> Acesse sua conta </title>
+</head>
+<body>
+    
+   
+<div class="container">
+    <div class="wrapperlogin">
+        <!-- Tela de login da esquerda -->
+        <h1>BEM VINDO DE VOLTA!</h1>
+        <h2>Faça login, ou realize o seu cadastro.</h2>
+  
+        <div class="wrapperslider">
+  
+          <div class="wrapperScroll">
+  
+            <form id="formlogin" step class="step">
+              <div class="inputsloginsenha">
+                <div class="inputgroup">
+  
+                  <label>Email:</label>
+                  <input type="text" id="inputemail" placeholder=" example@gmail.com " id="inputlogin" />
+                </div>
+  
+                <div class="inputgroup">
+                  <label>Senha:</label>
+                  <input type="password" id="inputsenha" placeholder=" ********* " id="inputsenha" />
+                </div>
+  
+                <button class="btnlogin" id="botaologin">login</button>
+                <div class="lembrar-esquecer">
+                  <label><input type="checkbox"> Lembrar de mim </label>
+                </div>
+                <div class="loginregister">
+                  <p>Não possui uma conta?</p>
+                  <a href="#" id="registrolink" class="navigationlinks">Registrar-se </a>
+                </div>
+              </div>
+            </form>
+  
+            <form id="register-form" step class="step">
+              <div class="inputs-register">
+                <div class="inputgroup">
+                  <label>Nome de Usuário</label>
+                  <input type="text" placeholder=" Nome / Sobrenome " id="registerUsername" />
+  
+                <div class="inputgroup">
+                  <label> Email :</label>
+                  <input type="text"  placeholder="example@email.com" id="registeremail" />
+                </div>
+  
+                <div class="inputgroup">
+                  <label>Senha:</label>
+                  <input type="password"  placeholder=" ********* " id="registerPassword"/>
+                </div>
+  
+                <p> Já possui uma conta? <a href="#" id="loginlink" class="navigationlinks"> Login </a></p>
+  
+                <button class="btnlogin" id="btnRegister"> Registrar-se</button>
+              </div>
+  
+            </form>
+          </div>
+  
+        </div>
+      </div>
+</div>
+<script src="api.js"></script>
+<script src="login.js"></script>
+<script src="register.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    /* color: #e20000; */
+    text-decoration: none;
+}
+
+
+/*  Lidando com a estilização do Header */
+
+li, a, button{
+    font-family: "Monterrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+
+}
+
+.nav-links{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px 20px;
+    
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: cadetblue;
+}
+
+i{
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+
+
+/* Lidando com a estilização do container esquerdo  */
+
+.maincontainer{
+    display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  height: calc(100vh - 109px);
+  /* border: solid red; */
+    
+
+}
+
+.leftcontainer{
+    background-color: white;
+    /* border: solid black; */
+    border-radius: 16px;
+    width: 75%;
+    height: 100%; /* Ocupa 100% da altura do .maincontainer */
+    overflow-y: scroll;
+
+
+}
+
+/*  Lidando com os Grid Cards em geral */
+.cards{
+    height: fit-content;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+    flex: 1 auto;
+    grid-auto-rows: minmax(400px,1fr);
+
+}
+
+.card{
+    text-align: center;
+    grid-gap: 20px;
+    text-align: center;
+    /* border: solid black; */
+    background-color: whitesmoke;
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Estilizando o interior dos Cards */
+.cards h1{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+    
+
+}
+.cards p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.cards h2{
+    font-size: 20px;
+    margin-top: 70px;
+
+}
+.cards h3{
+    font-size: 25px;
+    padding: 20px;
+}
+
+/*  Inserindo imagens dentro dos cards: */
+.cardImages img{
+   width: 389px;
+   height: 400px;
+   border-radius: 10px;
+}
+
+/*  Lidando com o scroll bar feio ;c */
+::-webkit-scrollbar{
+    width: 10px;
+    }
+
+/*  Lidando com o container direito(formulario) */
+.rightcontainer{
+
+    width: 600.25px;
+    height: 804px;
+    background-color: whitesmoke;
+    border-radius: 20px;  
+}
+
+.rightcontainer h1{
+    font-size: 20px;
+}
+
+.registerproducts{
+padding: 25px;
+margin-top: 60px;
+}
+
+
+.registerproducts label{
+    font-size: 15px;
+}
+
+
+.inputgroup{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.inputgroup input{
+    border: solid 2px white;
+    border-radius: 16px;
+    font-size: 30px;
+    padding: 2px;
+    text-align: center;
+        
+}
+
+.inputgroup ::placeholder{
+    font-size: 18px;
+}
+
+.inputgroup button{
+    margin-top: 100px;
+}

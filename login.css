@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Ocupa a altura total da viewport */
+
+}
+
+.container{
+    background-color: skyblue;
+    border: 1 solid white;
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 1320px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.wrapperlogin{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: whitesmoke;
+    width: 500px;
+}
+
+.wrapperlogin h1{
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 30px;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.wrapperlogin h2{
+    color: black;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 20px;
+}
+
+
+.wrapperslider{
+      display: flex;
+    overflow: hidden;
+    width: 300px;
+}
+
+.wrapperscroll{
+    display: flex;
+    transition: 0.5s;
+    gap: 16px;
+
+}
+
+  .wrapperlogin{
+    font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+.wrapperlogin h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+
+.step{
+    width: 300px;
+    font-size: 15px;
+    font-family: "AR One Sans", sans-serif;
+}
+
+form.step .navigationlinks{
+    color: orange;
+    text-decoration: none;
+  
+  }
+  
+  form.step .navigationlinks:hover{
+    text-decoration: underline;
+  }
+
+.inputgroup input { 
+    color: skyblue;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.inputgroup label{
+    margin-bottom: 4px;
+  font-size: 12px;
+}  
+
+.btnlogin{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid skyblue;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: skyblue;
+    font-weight: 500;
+    margin-top: 15px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.btnlogin:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+.lembrar-esquecer{
+    margin-bottom: 10px;
+}
+
+form.step .navigationlinks{
+    color: skyblue;
+    text-decoration: none;
+  
+  }
+  
+  form.step .navigationlinks:hover{
+    text-decoration: underline;
+  }
+  
+  /* Lidando com a tela de registro */
+  .login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    /* flex-direction: column; */
+  }
+
+  
+.wrapperslider{
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+  
+  }
+  .wrapperScroll{
+    display: flex;
+    transition: 0.5s;
+    gap: 16px;
+  }
+
+  
+
+
+
